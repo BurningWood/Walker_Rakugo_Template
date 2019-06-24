@@ -1,0 +1,15 @@
+[remap]
+
+importer="ogg_vorbis"
+type="AudioStreamOGGVorbis"
+path="res://.import/Welcome_in_the_intox.ogg-ffa5a6a1b8455a21033e942199f46d81.oggstr"
+
+[deps]
+
+source_file="res://Test/Welcome_in_the_intox.ogg"
+dest_files=[ "res://.import/Welcome_in_the_intox.ogg-ffa5a6a1b8455a21033e942199f46d81.oggstr" ]
+
+[params]
+
+loop=true
+loop_offset=0

@@ -1,0 +1,9 @@
+addons/godot-plugin-refresher/
+fontconfig
+refences/
+saves/
+.import/
+.directory
+.vscode/
+.*.kra
+examples/the_question_org/

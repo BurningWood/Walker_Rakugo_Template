@@ -1,0 +1,18 @@
+[remap]
+
+importer="wavefront_obj"
+type="Mesh"
+path="res://.import/Tile.obj-aa3b2c1cffcc5b16ed1d076a00845844.mesh"
+
+[deps]
+
+files=[ "res://.import/Tile.obj-aa3b2c1cffcc5b16ed1d076a00845844.mesh" ]
+
+source_file="res://game/assets/levels/level_assets/ground_tile_1/Tile.obj"
+dest_files=[ "res://.import/Tile.obj-aa3b2c1cffcc5b16ed1d076a00845844.mesh", "res://.import/Tile.obj-aa3b2c1cffcc5b16ed1d076a00845844.mesh" ]
+
+[params]
+
+generate_tangents=true
+scale_mesh=Vector3( 1, 1, 1 )
+optimize_mesh=true
