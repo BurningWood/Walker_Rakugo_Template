@@ -114,7 +114,7 @@ func get_dir_contents(path, ext, ignore = [""]):
 			file_name = dir.get_next()
 
 	else:
-		print("An error occurred when trying to access the path.")
+		printerr("An error occurred when trying to access the path.")
 
 	return contents
 

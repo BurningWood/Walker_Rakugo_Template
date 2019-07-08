@@ -90,4 +90,3 @@ size_flags_vertical = 3
 custom_fonts/font = SubResource( 7 )
 text = "No"
 flat = true
-
