@@ -2,13 +2,13 @@ tool
 extends AudioStreamPlayer
 class_name RakugoAudioPlayer
 
-export var node_id : = ""
+export var node_id := ""
 
-var node_link:NodeLink
-var last_pos : = 0.0
+var node_link: NodeLink
+var last_pos := 0.0
 
 func _ready() -> void:
-	if(Engine.editor_hint):
+	if Engine.editor_hint:
 		if node_id.empty():
 			node_id = name
 
@@ -28,14 +28,16 @@ func _ready() -> void:
 
 	add_to_group("save", true)
 
-func _on_play(id : String, from_pos : = 0.0) -> void:
+
+func _on_play(id: String, from_pos := 0.0) -> void:
 	if id != node_id:
 		return
 
 	last_pos = from_pos
 	play(from_pos)
 
-func _on_stop(id : String) -> void:
+
+func _on_stop(id: String) -> void:
 	if id != node_id:
 		return
 
@@ -44,14 +46,21 @@ func _on_stop(id : String) -> void:
 
 	stop()
 
+
 func on_save():
-	node_link = Rakugo.get_node_link(node_id)
+	if not node_link:
+		push_error("error with saving: %s" %node_id)
+		return
+
 	node_link.value["is_playing"] = is_playing()
 	node_link.value["from_pos"] = last_pos
 
-func on_load(game_version:String) -> void:
-	node_link =  Rakugo.get_node_link(node_id)
-	
+
+func on_load(game_version: String) -> void:
+	if not node_link:
+		push_error("error with loading: %s" %node_id)
+		return
+		
 	if "is_playing" in node_link:
 		if node_link.value["is_playing"]:
 			var last_pos = node_link.value["from_pos"]
@@ -59,6 +68,7 @@ func on_load(game_version:String) -> void:
 
 	else:
 		_on_stop(node_id)
+
 
 func _exit_tree() -> void:
 	if(Engine.editor_hint):

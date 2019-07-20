@@ -1,25 +1,30 @@
-# Rakugo ![Logo](graphics/window_icon.png)
+# Rakugo The Question ![Logo](graphics/window_icon.png)
 [![Documentation Status](https://readthedocs.org/projects/rakugo/badge/?version=latest)](https://rakugo.readthedocs.io/en/latest/?badge=latest)
 [![Patreon](https://img.shields.io/badge/support-pateron-orange.svg?style=flat-square)](https://www.patreon.com/jebedaia360)
 [![The MIT License](https://img.shields.io/badge/license-MIT-orange.svg?style=flat-square)](LICENSE)
 [![Discord Server](https://img.shields.io/discord/484604562183815169.svg?style=flat-square)](https://discord.gg/K9gvjdg)
-[![GitHub](https://img.shields.io/github/contributors/jebedaia360/Rakugo.svg?style=flat-square)](https://github.com/jebedaia360/Rakugo)
-[![GitHub](https://img.shields.io/github/stars/jebedaia360/Rakugo.svg?style=flat-square)](https://github.com/jebedaia360/Rakugo)
-[![GitHub](https://img.shields.io/github/forks/jebedaia360/Rakugo.svg?style=flat-square)](https://github.com/jebedaia360/Rakugo/network)
-[![GitHub](https://img.shields.io/github/watchers/badges/shields.svg?label=Watch&style=flat-square)](https://github.com/jebedaia360/Rakugo)
-[![GitHub](https://img.shields.io/github/issues/jebedaia360/Rakugo.svg?style=flat-square)](https://github.com/jebedaia360/Rakugo/issues)
-[![GitHub](https://img.shields.io/github/issues-closed/jebedaia360/Rakugo.svg?style=flat-square)](https://github.com/jebedaia360/Rakugo/issues)
+[![GitHub](https://img.shields.io/github/contributors/jebedaia360/Rakugo-The-Question.svg?style=flat-square)](https://github.com/jebedaia360/Rakugo-The-Question)
+[![GitHub](https://img.shields.io/github/stars/jebedaia360/Rakugo-The-Question.svg?style=flat-square)](https://github.com/jebedaia360/Rakugo-The-Question)
+[![GitHub](https://img.shields.io/github/forks/jebedaia360/Rakugo-The-Question.svg?style=flat-square)](https://github.com/jebedaia360/Rakugo-The-Question/network)
+[![GitHub](https://img.shields.io/github/watchers/badges/shields.svg?label=Watch&style=flat-square)](https://github.com/jebedaia360/Rakugo-The-Question)
+[![GitHub](https://img.shields.io/github/issues/jebedaia360/Rakugo-The-Question.svg?style=flat-square)](https://github.com/jebedaia360/Rakugo-The-Question/issues)
+[![GitHub](https://img.shields.io/github/issues-closed/jebedaia360/Rakugo-The-Question.svg?style=flat-square)](https://github.com/jebedaia360/Rakugo-The-Question/issues)
 
-Rakugo is framemork (inspired by [Ren'Py](https://www.renpy.org)) for story driven games in [Godot](https://godotengine.org)
+## This Repo
+
+This is repo for VN Rakugo Template.
+This template is port of Ren'Py game [*The Question*](https://games.renpy.org/game/question).
+
+## Rakugo it Self
+
+[Rakugo](https://github.com/jebedaia360/Rakugo) is framework (inspired by [Ren'Py](https://www.renpy.org)) for story driven games in [Godot](https://godotengine.org)
 or like my friend call it *Story Management Plugin*.
 
 The idea is to have a ready to use plug-in for stories, so developers can create narrative driven games with all the amazing features and tools of Godot 3.1+.
 
-Now you can support this project by [Patreon](https://www.patreon.com/jebedaia360).
+Now you can support this project by buing it on [itch.io](https://jebedaia.itch.io/rakugo).
 
-You can download 1.0 for Godot 3.0 [here](https://github.com/jebedaia360/Rakugo/releases).
-
-Now we are working on [Rakugo 2.0 for Godot 3.1](https://github.com/jebedaia360/Rakugo/issues/81) :D
+You can download 2.0 for Godot 3.1 [here](https://github.com/jebedaia360/Rakugo-The-Question/releases).
 
 ## Showcase
 
@@ -33,7 +38,7 @@ If your game uses Rakugo write to me on [Discord](https://discord.gg/K9gvjdg).
 
 It means games that are for example:
 
-- Visual Novels ![](https://img.shields.io/badge/VN-95%25-brightgreen.svg?style=flat-square)
+- Visual Novels ![](https://img.shields.io/badge/VN-100%25-brightgreen.svg?style=flat-square)
 - Click & Point Adventures ![](https://img.shields.io/badge/Adv-25%25-yellowgreen.svg?style=flat-square)
 - RPG ![](https://img.shields.io/badge/RPG-40%25-green.svg?style=flat-square)
 
@@ -59,15 +64,14 @@ This project's dialog functions can do more than Ren'Py's equivalents.
 
 **Q:** Is it easy to use ?</p>
 **A:** For now it is not that easy as I want it to be, but I am working to make it use RakugoScript (this framework's own language) and visual script.
-For now here is example using GDScript: [examples/Test/test.gd](examples/Test/test.gd)
 
 ## Other Info
 
 If you want to help please write to us on our [Discord](https://discord.gg/K9gvjdg).
 
-Docs repo is here: https://github.com/jebedaia360/RakugoDocs
+Docs repo is here: https://github.com/jebedaia360/Rakugo-The-QuestionDocs
 
-I need help with this [visual script support](https://github.com/jebedaia360/Rakugo/issues/26).
+I need help with this [visual script support](https://github.com/jebedaia360/Rakugo-The-Question/issues/26).
 
 - [Godot icons](https://github.com/godotengine/godot-design/tree/master/engine/icons/optimized)
 - [Linux Pop icon theme](https://github.com/pop-os/icon-theme)
