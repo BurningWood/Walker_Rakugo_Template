@@ -1,7 +1,7 @@
 extends GDScriptDialog
 
-onready var s = get_var("s")
-onready var m = get_var("m")
+var s
+var m
 
 func test(node_name, dialog_name):
 	var cd = check_dialog(node_name, dialog_name, "test")

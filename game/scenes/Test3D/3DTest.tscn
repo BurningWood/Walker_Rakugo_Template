@@ -30,7 +30,9 @@ dialogs_names = [ "test" ]
 
 [node name="characters" type="Spatial" parent="."]
 
-[node name="Me" type="Node" parent="characters"]
+[node name="Me" type="Node" parent="characters" groups=[
+"save",
+]]
 script = ExtResource( 3 )
 character_id = "m"
 character_name = "Me"
@@ -45,7 +47,9 @@ script = ExtResource( 4 )
 node_id = "sylvie"
 camera = NodePath("../../Camera")
 
-[node name="Character" type="Node" parent="characters/Sylvie"]
+[node name="Character" type="Node" parent="characters/Sylvie" groups=[
+"save",
+]]
 script = ExtResource( 3 )
 character_id = "s"
 character_name = "Sylvie"
@@ -58,12 +62,10 @@ kind = "adv"
 
 [node name="green" type="Sprite3D" parent="characters/Sylvie"]
 editor/display_folded = true
-visible = false
 texture = ExtResource( 6 )
 
 [node name="giggle" type="Sprite3D" parent="characters/Sylvie/green"]
 transform = Transform( 1, 0, 0, 0, 1, 0, 0, 0, 1, -0.392009, 2.29504, 0 )
-visible = false
 texture = ExtResource( 7 )
 
 [node name="normal" type="Sprite3D" parent="characters/Sylvie/green"]
